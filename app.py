@@ -98,7 +98,7 @@ if st.button("Submit"):
             f"<p><strong>Additional links:</strong> {links_html}</p>")
     }
 
-    if any(item['name'] == new_data["name"] for item in data):
+    if any(item['name'] == new_data["name"] for item in content):
         st.error("Data already exists")
     
     else:
