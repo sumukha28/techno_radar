@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Langchain",
+        "ring": "Adopt",
+        "quadrant": "Languages & Frameworks",
+        "isNew": "False",
+        "description": "<p><strong>Owners: </strong>Anudeep Dhonde</p>\n<p><strong>Contributors:</strong>Spring Wu, Uros Pajic</p>\n<p>LangChain is an open-source framework designed to facilitate the development of applications powered by large language models (LLMs). It provides a standardized interface and tools that simplify the process of connecting LLMs to various data sources, external tools, and other APIs. Essentially, LangChain acts as a bridge, enabling developers to build more versatile and powerful AI applications by combining the capabilities of LLMs with external information and functionality.</p>\n<p><strong>Projects:</strong> <a href=\"https://ms-purview-fe-dev-esgha5htg5e9gzcp.eastus-01.azurewebsites.net/alert-details-v2/d2a8f915-03b9-4e2e-bf55-d77f2e1b8fc0/\">MS PURVIEW INVESTIGATION AGENT</a></p>\n<p><strong>Additional links:</strong> <a href=\"https://www.ibm.com/think/topics/langchain\">Langchain</a></p>"
+    },
+    {
+        "name": "Knowledge Graph",
+        "ring": "Adopt",
+        "quadrant": "Techniques",
+        "isNew": "False",
+        "description": "<p><strong>Owners: </strong>Uros Pajic, Rahul Jha</p>\n<p><strong>Contributors:</strong> Spring Wu, Anudeep Dhonde,</p>\n<p>A knowledge graph is a structured way to represent knowledge as a network of interconnected entities, concepts, and their relationships. Think of it as a database that not only stores information about things but also describes how those things are related to each other, forming a complex web of knowledge.</p>\n<p><strong>Projects:</strong> <a href=\"https://ms-purview-fe-dev-esgha5htg5e9gzcp.eastus-01.azurewebsites.net/alert-details-v2/d2a8f915-03b9-4e2e-bf55-d77f2e1b8fc0/\">MS PURVIEW INVESTIGATION AGENT</a></p>\n<p><strong>Additional links:</strong> <a href=\"https://www.ontotext.com/knowledgehub/fundamentals/what-is-a-knowledge-graph/\">Knowledge Graph</a></p>"
+    }
+]
