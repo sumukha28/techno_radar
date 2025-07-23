@@ -12,5 +12,96 @@
         "quadrant": "Techniques",
         "isNew": "False",
         "description": "<p><strong>Owners: </strong>Uros Pajic, Rahul Jha</p>\n<p><strong>Contributors:</strong> Spring Wu, Anudeep Dhonde,</p>\n<p>A knowledge graph is a structured way to represent knowledge as a network of interconnected entities, concepts, and their relationships. Think of it as a database that not only stores information about things but also describes how those things are related to each other, forming a complex web of knowledge.</p>\n<p><strong>Projects:</strong> <a href=\"https://ms-purview-fe-dev-esgha5htg5e9gzcp.eastus-01.azurewebsites.net/alert-details-v2/d2a8f915-03b9-4e2e-bf55-d77f2e1b8fc0/\">MS PURVIEW INVESTIGATION AGENT</a></p>\n<p><strong>Additional links:</strong> <a href=\"https://www.ontotext.com/knowledgehub/fundamentals/what-is-a-knowledge-graph/\">Knowledge Graph</a></p>"
+    },
+    {
+        "name": "Langgraph",
+        "ring": "Adopt",
+        "quadrant": "Languages & Frameworks",
+        "isNew": "False",
+        "description": "<p><strong>Owners: </strong></p>\n<p><strong>Contributors:</strong> Spring Wu, Uros Pajic, Sumukha</p>\n<p>LangGraph is a library built on top of LangChain that enables the construction of agentic workflows using a directed acyclic graph (DAG) abstraction. It allows for greater control over task execution, state management, and coordination between multiple agents. LangGraph is especially valuable in scenarios where complex multi-step or branching logic is required in LLM applications, including decision-making pipelines and conditional flows. Its modular design makes it a strong candidate for projects experimenting with multi-agent orchestration.</p>\n<p><strong>Projects:</strong> <a href=\"https://ms-purview-fe-dev-esgha5htg5e9gzcp.eastus-01.azurewebsites.net/alert-details-v2/d2a8f915-03b9-4e2e-bf55-d77f2e1b8fc0/\">MS PURVIEW INVESTIGATION AGENT</a></p>\n<p><strong>Additional links:</strong> <a href=\"https://langchain-ai.github.io/langgraph/concepts/why-langgraph/\">LangGraph</a></p>"
+    },
+    {
+        "name": "Langsmith",
+        "ring": "Trial",
+        "quadrant": "Platforms",
+        "isNew": "True",
+        "description": "<p><strong>Owners: </strong>Anudeep Dhonde</p>\n<p><strong>Contributors:</strong> Spring Wu, Uros Pajic, Sumukha</p>\n<p>LangSmith is a powerful platform for debugging, monitoring, and evaluating large language model (LLM) applications developed using LangChain. It provides a user interface and rich API support for visualizing execution traces, evaluating model performance, and understanding LLM behavior over time. LangSmith plays a vital role in productionizing LLM apps by adding observability, test cases, and version control over chain configurations and agent logic.</p>\n<p><strong>Projects:</strong> <a href=\"https://ms-purview-fe-dev-esgha5htg5e9gzcp.eastus-01.azurewebsites.net/alert-details-v2/d2a8f915-03b9-4e2e-bf55-d77f2e1b8fc0/\">MS PURVIEW INVESTIGATION AGENT</a></p>\n<p><strong>Additional links:</strong> <a href=\"https://docs.smith.langchain.com/\">LangSmith</a></p>"
+    },
+    {
+        "name": "Langfuse",
+        "ring": "Hold",
+        "quadrant": "Tools",
+        "isNew": "True",
+        "description": "<p><strong>Owners: </strong>Anudeep Dhonde</p>\n<p><strong>Contributors:</strong> Spring Wu, Uros Pajic, Sumukha</p>\n<p>Langfuse is an open-source observability and analytics tool for LLM-based applications. It captures traces of user interactions, API calls, prompt completions, and evaluation metrics. By visualizing logs and traces, developers can gain deeper insight into the performance and behavior of their AI systems, enabling root cause analysis and iterative improvements. Langfuse integrates easily with popular frameworks like LangChain and OpenAI SDKs, making it a versatile choice for any LLM stack.</p>\n<p><strong>Projects:</strong> <a href=\"https://ms-purview-fe-dev-esgha5htg5e9gzcp.eastus-01.azurewebsites.net/alert-details-v2/d2a8f915-03b9-4e2e-bf55-d77f2e1b8fc0/\">MS PURVIEW INVESTIGATION AGENT</a></p>\n<p><strong>Additional links:</strong> <a href=\"https://langfuse.com/docs\">Langfuse</a></p>"
+    },
+    {
+        "name": "Python",
+        "ring": "Adopt",
+        "quadrant": "Languages & Frameworks",
+        "isNew": "False",
+        "description": "<p><strong>Owners: </strong>DevTeam</p>\n<p><strong>Contributors:</strong>DevTeam, Solutions Team</p>\n<p>Python is a high-level, versatile, and interpreted programming language known for its readability and ease of use. It's often described as object-oriented and dynamically typed. Python is widely used in various fields, including web development, data science, machine learning, and scripting. Its clear syntax and extensive libraries make it a popular choice for both beginners and experienced programmers. </p>\n<p><strong>Projects:</strong> </p>\n<p><strong>Additional links:</strong> <a href=\"https://www.python.org/about/\">Python</a></p>"
+    },
+    {
+        "name": "JavaScript",
+        "ring": "Adopt",
+        "quadrant": "Languages & Frameworks",
+        "isNew": "False",
+        "description": "<p><strong>Owners: </strong>DevTeam</p>\n<p><strong>Contributors:</strong>DevTeam, Solutions Team</p>\n<p>JavaScript is the foundational language for interactive web applications. It powers client-side logic in modern browsers and also supports server-side application development via environments like Node.js. JavaScript\u2019s dynamic typing and first-class function support make it highly flexible for rapid front-end and back-end development. Its role in modern frameworks such as React, Angular, and Vue keeps it at the forefront of web technology stacks</p>\n<p><strong>Projects:</strong> </p>\n<p><strong>Additional links:</strong> <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript\">JavaScript</a></p>"
+    },
+    {
+        "name": "Dify",
+        "ring": "Assess",
+        "quadrant": "Tools",
+        "isNew": "True",
+        "description": "<p><strong>Owners: </strong>Anudeep Dhonde</p>\n<p><strong>Contributors:</strong>Spring Wu</p>\n<p>Dify is an open-source platform for developing LLM applications. Its intuitive interface combines agentic AI workflows, RAG pipelines, agent capabilities, model management, observability features, and more\u2014allowing you to quickly move from prototype to production.</p>\n<p><strong>Projects:</strong> </p>\n<p><strong>Additional links:</strong> <a href=\"https://cloud.dify.ai/signin\">Dify</a></p>"
+    },
+    {
+        "name": "FlowiseAI",
+        "ring": "Assess",
+        "quadrant": "Tools",
+        "isNew": "True",
+        "description": "<p><strong>Owners: </strong>Uros Pajic</p>\n<p><strong>Contributors:</strong>Spring Wu, Sumukha</p>\n<p>Flowise is designed to help in creating AI agents through a simple drag-and-drop interface. It operates by allowing us to connect different blocks, which represent various functions, to build a customized workflow. Each block can be configured to perform a specific action.</p>\n<p><strong>Projects:</strong> </p>\n<p><strong>Additional links:</strong> <a href=\"https://docs.flowiseai.com/\">FlowiseAI</a></p>"
+    },
+    {
+        "name": "Angular",
+        "ring": "Adopt",
+        "quadrant": "Languages & Frameworks",
+        "isNew": "False",
+        "description": "<p><strong>Owners: </strong>DevTeam</p>\n<p><strong>Contributors:</strong>DevTeam</p>\n<p>Angular is a TypeScript-based web application framework designed for building scalable and maintainable client-side applications. It provides a comprehensive set of tools including dependency injection, routing, HTTP client, and reactive form handling. Angular is a strong choice for enterprise-grade applications and offers long-term support and consistent performance across large codebases</p>\n<p><strong>Projects:</strong> </p>\n<p><strong>Additional links:</strong> <a href=\"https://angular.dev/overview\">Angular</a></p>"
+    },
+    {
+        "name": "Data Foundry",
+        "ring": "Adopt",
+        "quadrant": "Platforms",
+        "isNew": "False",
+        "description": "<p><strong>Owners: </strong>Abhishek Mukherji, Bishwajith</p>\n<p><strong>Contributors:</strong>Solutions Team</p>\n<p>Data Foundry is a flexible and extensible data annotation platform supporting a wide range of data types including text, audio, images, and time series. It supports both manual and programmatic labeling and integrates with model inference pipelines to enable active learning. Data Foundry is widely used in AI teams for curating high-quality datasets for model training, validation, and evaluation.</p>\n<p><strong>Projects:</strong> <a href=\"https://annotations.oneforma2.com/projects?page=1&workspace=80\">Gaia</a>, <a href=\"https://annotations.oneforma2.com/projects?page=1&workspace=3909\">Steelcase</a></p>\n<p><strong>Additional links:</strong> <a href=\"https://annotations.oneforma2.com/user/login/?native_login=true\">Data Foundry</a></p>"
+    },
+    {
+        "name": "Oneforma",
+        "ring": "Adopt",
+        "quadrant": "Platforms",
+        "isNew": "False",
+        "description": "<p><strong>Owners: </strong>Shashi Shashidhar</p>\n<p><strong>Contributors:</strong>Solutions Team</p>\n<p>OneForma is a flexible and extensible data annotation platform supporting a wide range of data types including text, audio, images, and time series. It supports both manual and programmatic labeling and integrates with model inference pipelines to enable active learning. Data Foundry is widely used in AI teams for curating high-quality datasets for model training, validation, and evaluation.</p>\n<p><strong>Projects:</strong> <a href=\"https://desk.oneforma.com/?sso_key=u4QfAN3TYBTrwlWVs67wcQ5hGmei0SNmhZgeqxjOA05bJij5G4kEUgTq48hlD6TCqszq0mxDC8QkqNefOEpe6oLF85UlOIvF8znxioQzwhEvyvBYeXpb1D4Jk7ihhlWX1JBALJMBmv1HfsAHJXZC1YxDJgaMsfgoYg6ZqRwYfj3PrUCHcDWFpt01I101ZE4knnXcfAAD1yrqMhfNuNFu1s5ftPVyr2vRFXeJK8stKgCk4aGZkbD2nGeu4fDAn14\">Botanix</a></p>\n<p><strong>Additional links:</strong> <a href=\"https://my.oneforma.com/Account/sso_login?sso=true&return=https://desk.oneforma.com\">OneForma</a></p>"
+    },
+    {
+        "name": "AI Data Foundry",
+        "ring": "Trial",
+        "quadrant": "Platforms",
+        "isNew": "True",
+        "description": "<p><strong>Owners: </strong>Robin Dautricourt</p>\n<p><strong>Contributors:</strong>Solutions Team</p>\n<p>AI Data Foundry is a full-stack, enterprise-grade platform that enables organizations to build, fine-tune, deploy, and govern AI systems at scale with high quality and compliance. It supports end-to-end workflows\u2014from data ingestion and curation to model training, evaluation, and monitoring\u2014while accommodating multimodal inputs like text, audio, images, video, and 3D data. Designed for agentic AI, it includes over 150 built-in quality and safety checks, red/purple teaming, and human-in-the-loop oversight.</p>\n<p><strong>Projects:</strong> <a href=\"https://aidfdemo-loop.centific.com/apps/apps/myapps\">Tmobile</a></p>\n<p><strong>Additional links:</strong> <a href=\"https://aidfdemo-loop.centific.com/apps/apps/myapps\">AI Data Foundry</a></p>"
+    },
+    {
+        "name": "Retrieval-Augmented Generation (RAG)",
+        "ring": "Adopt",
+        "quadrant": "Techniques",
+        "isNew": "False",
+        "description": "<p><strong>Owners: </strong>Robin Dautricourt</p>\n<p><strong>Contributors:</strong>Solutions Team</p>\n<p>RAG is a hybrid NLP architecture that combines document retrieval with generative models. It uses a retriever component to find relevant documents and passes them to a generator (such as GPT or BERT) for response synthesis. RAG reduces hallucination in LLMs and supports grounded generation.</p>\n<p><strong>Projects:</strong> <a href=\"https://aidfdemo-loop.centific.com/apps/apps/myapps\">Tmobile</a></p>\n<p><strong>Additional links:</strong> <a href=\"https://huggingface.co/docs/transformers/model_doc/rag\">HuggingFace RAG</a></p>"
+    },
+    {
+        "name": "Semantic Chunking",
+        "ring": "Assess",
+        "quadrant": "Techniques",
+        "isNew": "True",
+        "description": "<p><strong>Owners: </strong>DevTeam</p>\n<p><strong>Contributors:</strong>DevTeam</p>\n<p>Semantic chunking involves breaking down large documents into meaning-preserving text segments for embedding and retrieval. This technique improves vector search accuracy and is critical for building effective RAG pipelines. Unlike fixed-length chunking, semantic methods consider topic boundaries and sentence coherence</p>\n<p><strong>Projects:</strong> </p>\n<p><strong>Additional links:</strong> <a href=\"https://medium.com/the-ai-forum/semantic-chunking-for-rag-f4733025d5f5\">Semantic Chunking</a></p>"
     }
 ]
