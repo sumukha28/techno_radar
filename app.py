@@ -39,8 +39,28 @@ The Status field is used to highlight which technologies (blips) are new in the 
 """)
 
 if st.button("Submit"):
-    with open("input.json","r") as file:
-        data = json.load(file)
+    token = st.secrets["github"]["token"]
+    username = st.secrets["github"]["username"]
+    repo = st.secrets["github"]["repo"]
+    file_path = st.secrets["github"]["file_path"]
+    branch = "main"
+
+
+    headers = {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github.v3+json"
+    }
+
+    # === Get File SHA and Current Content ===
+    url = f"https://api.github.com/repos/{username}/{repo}/contents/{file_path}?ref={branch}"
+    response = requests.get(url, headers=headers)
+    if response.status_code != 200:
+        st.error("❌ Could not read file from GitHub")
+        st.stop()
+
+    content_data = response.json()
+    sha = content_data["sha"]
+    content = json.loads(base64.b64decode(content_data["content"]).decode("utf-8"))
     
     project_links_list = []
     for line in projects.strip().split('\n'):
@@ -81,9 +101,19 @@ if st.button("Submit"):
     else:
 
         st.write(new_data)
-        data.append(new_data)
+        content.append(new_data)
+        updated_content = json.dumps(content, indent=4)
+        encoded_content = base64.b64encode(updated_content.encode()).decode()
 
-        with open("input.json","w") as file:
-            json.dump(data,file,indent=4)
-        
-        st.success(f"✅ Data is added to")
+        payload = {
+            "message": f"Add {name} to input.json",
+            "content": encoded_content,
+            "sha": sha,
+            "branch": branch
+        }
+
+        commit_response = requests.put(url, headers=headers, json=payload)
+        if commit_response.status_code in [200, 201]:
+            st.success("✅ input.json updated and committed to GitHub!")
+        else:
+            st.error(f"❌ Failed to commit: {commit_response.json()}")
