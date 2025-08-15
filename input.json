@@ -103,5 +103,12 @@
         "quadrant": "Techniques",
         "isNew": "True",
         "description": "<p><strong>Owners: </strong>DevTeam</p>\n<p><strong>Contributors:</strong>DevTeam</p>\n<p>Semantic chunking involves breaking down large documents into meaning-preserving text segments for embedding and retrieval. This technique improves vector search accuracy and is critical for building effective RAG pipelines. Unlike fixed-length chunking, semantic methods consider topic boundaries and sentence coherence</p>\n<p><strong>Projects:</strong> </p>\n<p><strong>Additional links:</strong> <a href=\"https://medium.com/the-ai-forum/semantic-chunking-for-rag-f4733025d5f5\">Semantic Chunking</a></p>"
+    },
+    {
+        "name": "",
+        "ring": "None",
+        "quadrant": "None",
+        "isNew": "None",
+        "description": "<p><strong>Owners: </strong></p>\n<p><strong>Contributors:</strong></p>\n<p></p>\n<p><strong>Projects:</strong> </p>\n<p><strong>Additional links:</strong> </p>"
     }
 ]
